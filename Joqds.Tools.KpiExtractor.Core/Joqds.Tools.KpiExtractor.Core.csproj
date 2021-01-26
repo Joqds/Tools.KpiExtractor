@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Mohsen Meshkini</Authors>
+    <Company>Joqds</Company>
+    <Product>KpiExtractor</Product>
+    <PackageIcon>joqdsLogo.jpg</PackageIcon>
+    <RepositoryUrl>https://github.com/Joqds/Tools.KpiExtractor</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +25,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Joqds.Tools.KpiExtractor.Contract\Joqds.Tools.KpiExtractor.Contract.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\m.meshkini\Desktop\joqdsLogo.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
